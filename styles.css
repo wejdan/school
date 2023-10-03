@@ -227,7 +227,7 @@ footer {
 
 /* Media Queries */
 @media (max-width: 480px) {
-    .banner h1 { font-size: 2em; }
+    .banner h1 { font-size: 4em; }
     #logo { width: 150px; }
     nav ul li { margin-right: 10px; }
     h2 { font-size: 1.5em; }
