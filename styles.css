@@ -94,6 +94,8 @@ nav ul li a {
     font-size: 4em;
     margin-bottom: 20px;
     color: #34495e;
+    padding: 10px;
+    text-align: center;
 }
 
 #logo {
