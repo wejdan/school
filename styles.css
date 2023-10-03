@@ -228,7 +228,7 @@ footer {
 /* Media Queries */
 @media (max-width: 480px) {
     .banner h1 { font-size: 4em; }
-    #logo { width: 150px; }
+    #logo { width: 200px; }
     nav ul li { margin-right: 10px; }
     h2 { font-size: 1.5em; }
     .section-title { font-size: 1.8em; }
@@ -238,7 +238,7 @@ footer {
 
 @media (min-width: 481px) and (max-width: 768px) {
     .banner h1 { font-size: 4em; }
-    #logo { width: 150px; }
+    #logo { width: 200px; }
     nav ul li { margin-right: 15px; }
     form { width: 350px; }
     .section-title { font-size: 1.9em; }
@@ -248,8 +248,17 @@ footer {
 @media (min-width: 769px) and (max-width: 1024px) {
     .banner h1 { font-size: 3em; }
     #logo { width: 150px; }
+    nav ul {
+        max-height: none;  /* No maximum height */
+    }
 }
 
+@media (min-width: 1024px)  {
+
+    nav ul {
+        max-height: none;  /* No maximum height */
+    }
+}
 @media (max-width: 768px) {
     #hamburger-menu { display: flex; }
     nav ul li {
@@ -279,10 +288,6 @@ footer {
         display: block;
     }
 }
-@media (min-width: 769px) {
-    nav ul {
-        max-height: none;  /* No maximum height */
-    }
-}
+
 
 
